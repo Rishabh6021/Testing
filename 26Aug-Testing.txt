@@ -1,0 +1,66 @@
+                                                                        TESTING
+
+-WaterFall Model
+	-Requirement & Analysis:
+				-Customer Req Document/Business Req Doc: have details like requirements(1,2,3..)
+				-SRS(Software Requirement Specification): detailed description of a software system to be developed with its functional and non-functional 									  	  requirements.
+						Functional Req:Operations to be performed in application eg. logging,upload,etc.
+						Non-Functional Req:How customer wants operations to behave.
+
+	-Design:
+		-HLD(High Level Document):Class diagram,Sequence diag,
+		-LLD(Low Level Document):ER Diagram,Use case diag.,
+
+	-Coding
+		-Based on SRS+HLD+LLD
+		-Develop application
+                *Unit testing:  input as LLD to testing of modules (HLM,LLM)
+				Coverages(Statement,condition,decision,function)
+		*Integration testing
+	
+	-Testing:test appn: *System Testing
+
+	-Deployment:deploy software to customer
+		   *UAT Testing
+
+	-Maintainence:Maintain S/W and warranty
+
+-Test level
+	-Unit Testing
+	-Integration:check connectivity b/w modules
+	-System:check complete application testing
+	-UAT(User Acceptance Test): alpha:Done by customer at place where software is done and beta:Done by customer at their own site.
+
+
+								 SELENIUM
+
+-HP Mercury QTP:-Functional testing tool.
+	-Based on VB script
+	-Works on Windows and tests Windows & Web-Based Application.
+
+-SELENIUM:
+	-Functional Testing
+	-For Java,Pearl,Python
+	-Based on Java,Linum,Mac
+	-Tests only web based application and not system appns.
+
+-Implementation:
+	-Go to https://www.seleniumhq.org/download/
+	-Download Selenium Standalone Server Download version 3.141.59
+	-Go to https://chromedriver.chromium.org/downloads
+	-Check chrome chrome://settings/help for version 
+	-Download relevant version 
+	-Import selenium driver jar in eclipse and run the application
+
+Write a test script for the following
+
+Navigate to Google.com
+Type Testing
+Click Google Search
+Get the Test from (About XXXXXX results (XXXX) Seconds. Hint (Use getText method)
+Print it
+
+Homework 1:Run the script in IE,Safari browsers
+Homework 2:goto spicejet.com -- Departure - select GOA -- arrival Select Chennai
+
+
