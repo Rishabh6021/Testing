@@ -63,4 +63,16 @@ Print it
 Homework 1:Run the script in IE,Safari browsers
 Homework 2:goto spicejet.com -- Departure - select GOA -- arrival Select Chennai
 
+-Need of Automation Testing:
+	-Retesting
+	-Regression Testing
+	-New Releases
+
+								CODING
+-http://echoecho.com/htmlforms10.htm
+-Use maven to include selenium dependency.
+-tinyurl.com/verizonse( Testing and working with Excel)
+
+
+
 
